@@ -1,35 +1,32 @@
-// src/components/Header.tsx
+// src/components/header/Header.tsx
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-white shadow-md">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-xl font-bold text-gray-800">
-          YourCompany
-        </div>
+    <header className="bg-white shadow-md py-4 sticky top-0 z-50">
+      <div className="container mx-auto px-4 flex justify-between items-center">
+        <div className="text-xl font-bold text-blue-600">Web Officer</div>
         <nav>
           <ul className="flex space-x-6">
             <li>
-              <Link to="/" className="text-gray-700 hover:text-blue-500 transition">
+              <a href="/" className="text-gray-700 hover:text-blue-600">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/about" className="text-gray-700 hover:text-blue-500 transition">
+              <a href="/about" className="text-gray-700 hover:text-blue-600">
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/services" className="text-gray-700 hover:text-blue-500 transition">
+              <a href="/services" className="text-gray-700 hover:text-blue-600">
                 Services
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/contact" className="text-gray-700 hover:text-blue-500 transition">
+              <a href="/contact" className="text-gray-700 hover:text-blue-600">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>

@@ -1,11 +1,15 @@
+// src/App.tsx
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <p>If you see this, React is working!</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

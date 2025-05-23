@@ -1,6 +1,3 @@
-# Front End Oni Web Officer stricter
-This is the front end for the site of Oni Web Officer
-
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
