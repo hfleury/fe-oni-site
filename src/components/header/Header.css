@@ -1,0 +1,51 @@
+.Header {
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.Header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Header-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3B82F6;
+}
+
+.Header-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.Header-nav-link {
+  color: #111827;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.Header-nav-link:hover {
+  color: #3B82F6;
+}
+
+.Header-cta {
+  background-color: #3B82F6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.Header-cta:hover {
+  background-color: #2563EB;
+}
