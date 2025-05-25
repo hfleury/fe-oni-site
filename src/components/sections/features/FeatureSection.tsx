@@ -1,22 +1,30 @@
+// src/components/sections/features/FeaturesSection.tsx
 import React from 'react';
 import FeatureCard from './FeatureCard';
+import { ChartBarIcon, LockClosedIcon, Cog8ToothIcon } from '@heroicons/react/24/solid';
 
 const FeaturesSection: React.FC = () => {
   const features = [
     {
-      icon: '🚀',
-      title: 'Fast Deployment',
-      description: 'Deploy your product quickly with our automated CI/CD pipelines.'
-    },
-    {
-      icon: '📊',
+      icon: <ChartBarIcon className="w-10 h-10" />,
+      iconBgColor: 'bg-indigo-100',
+      iconColor: 'text-indigo-600',
       title: 'Analytics Dashboard',
       description: 'Track usage, monitor performance, and get actionable insights.'
     },
     {
-      icon: '🔐',
+      icon: <LockClosedIcon className="w-10 h-10" />,
+      iconBgColor: 'bg-indigo-100',
+      iconColor: "text-red-500",
       title: 'Secure Infrastructure',
       description: 'Built with security-first principles and enterprise-grade encryption.'
+    },
+    {
+      icon: <Cog8ToothIcon className="w-10 h-10" />,
+      iconBgColor: 'bg-indigo-100',
+      iconColor: "text-emerald-500",
+      title: 'Custom Workflows',
+      description: 'Tailor your setup to fit your team’s needs.'
     }
   ];
 
@@ -35,6 +43,7 @@ const FeaturesSection: React.FC = () => {
             <FeatureCard
               key={index}
               icon={feature.icon}
+              iconColor={feature.iconColor}
               title={feature.title}
               description={feature.description}
             />
