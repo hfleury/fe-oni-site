@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const MobileNav: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -33,32 +35,32 @@ const MobileNav: React.FC = () => {
           <ul className="flex flex-col space-y-4">
             <li>
               <a href="/" className="block text-gray-700 hover:text-blue-600 transition">
-                Home
+                {t('nav.home', 'Home')}
               </a>
             </li>
             <li>
               <a href="/about" className="block text-gray-700 hover:text-blue-600 transition">
-                About
+                {t('nav.about', 'About')}
               </a>
             </li>
             <li>
               <a href="/features" className="block text-gray-700 hover:text-blue-600 transition">
-                Features
+                {t('nav.features', 'Features')}
               </a>
             </li>
             <li>
               <a href="/pricing" className="block text-gray-700 hover:text-blue-600 transition">
-                Pricing
+                {t('nav.pricing', 'Pricing')}
               </a>
             </li>
             <li>
               <a href="/contact" className="block text-gray-700 hover:text-blue-600 transition">
-                Contact
+                {t('nav.contact', 'Contact')}
               </a>
             </li>
             <li>
               <button className="w-full mt-2 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300">
-                Get Started
+                {t('nav.getStarted', 'Get Started')}
               </button>
             </li>
           </ul>

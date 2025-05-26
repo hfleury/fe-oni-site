@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Acelere seu negócio com o Web Officer",
+    "description": "Ferramentas poderosas para ajudar startups e empresas a escalar com confiança.",
+    "banner": {
+      "text": "Pré-visualização do seu aplicativo"
+    }
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre Nós",
+    "features": "Recursos",
+    "princing": "Preços",
+    "contact": "Contato"
+  },
+  "ctaButton": {
+    "getStarted": "Comece Agora",
+    "learnMore": "Saiba Mais"
+  },
+  "feature": {
+    "section": {
+      "title": "Por que escolher o Web Officer?",
+      "subtitle": "Ferramentas poderosas para ajudar startups e empresas a escalar com confiança.",
+      "icon": {
+        "chartBar":{
+          "title": "Painel de Análise",
+          "description": "Acompanhe o uso, monitore o desempenho e obtenha insights acionáveis."
+        },
+        "lockClosed": {
+          "title": "Infraestrutura Segura",
+          "description": "Construído com princípios de segurança e criptografia de nível empresarial."
+        },
+        "cog8Tooth": {
+          "title": "Fluxos de Trabalho Personalizados",
+          "description": "Personalize sua configuração para atender às necessidades da sua equipe."
+        }
+      }
+    }
+  }
+}

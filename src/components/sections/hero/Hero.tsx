@@ -1,7 +1,10 @@
 import React from 'react';
 import CTAButton from '../../ui/buttons/CTAButton';
+import { useTranslation } from '../../../hooks/useTranslation';
 
 const Hero: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 overflow-hidden">
       {/* Decorative Blurred Circles */}
@@ -12,19 +15,19 @@ const Hero: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-12 md:mb-0 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Grow Your Business Faster With Web Officer
+              {t('hero.title', 'Grow Your Business Faster With Web Officer')}
             </h1>
             <p className="text-lg md:text-xl mb-8 max-w-xl mx-auto md:mx-0 text-white/90">
-              Powerful tools and services to help startups and enterprises scale with confidence.
+              {t('hero.description', 'Powerful tools and services to help startups scale with confidence.')}
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
-              <CTAButton text="Get Started" variant="primary" />
-              <CTAButton text="Learn More" variant="secondary" />
+              <CTAButton text={t('ctaButton.getStarted', 'Get Started')} variant="primary" />
+              <CTAButton text={t('ctaButton.learnMore', 'Learn More')} variant="secondary" />
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="bg-white p-2 rounded-lg shadow-2xl w-[300px] h-[200px] flex items-center justify-center text-gray-800 font-semibold">
-              Your App Preview
+              {t('hero.banner.text', 'Your Business, Our Expertise')}
             </div>
           </div>
         </div>

@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "Grow Your Business Faster With Web Officer",
+    "description": "Powerful tools and services to help startups and enterprises scale with confidence.",
+    "banner": {
+      "text": "Your App Preview"
+    }
+  },
+  "features": {
+    "title": "Why Choose Web Officer?",
+    "description": "All systems built with secure defaults and automatic encryption."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "features": "Features",
+    "princing": "Pricing",
+    "contact": "Contact Us"
+  },
+  "ctaButton": {
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "feature": {
+    "section": {
+      "icon": {
+        "title": "Why Choose Web Officer?",
+        "subtitle": "Powerful tools and services to help startups and enterprises scale with confidence.",
+        "chartBar":{
+          "title": "Analytics Dashboard",
+          "description": "Track usage, monitor performance, and get actionable insights."
+        },
+        "lockClosed": {
+          "title": "Secure Infrastructure",
+          "description": "Built with security-first principles and enterprise-grade encryption."
+        },
+        "cog8Tooth": {
+          "title": "Custom Workflows",
+          "description": "Tailor your setup to fit your team’s needs."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "Väx din affär snabbare med Web Officer",
+    "description": "Kraftfulla verktyg och tjänster för att hjälpa startups och företag att skala med säkerhet.",
+    "banner": {
+      "text": "Din app-förhandsvisning"
+    }
+  },
+  "features": {
+    "title": "Varför välja Web Officer?",
+    "description": "Alla system är byggda med säkra standardinställningar och automatisk kryptering."
+  },
+  "nav": {
+    "home": "Hem",
+    "about": "Om Oss",
+    "features": "Funktioner",
+    "princing": "Prissättning",
+    "contact": "Kontakta Oss"
+  },
+  "ctaButton": {
+    "getStarted": "Kom igång",
+    "learnMore": "Läs mer"
+  },
+  "feature": {
+    "section": {
+      "title": "Varför välja Web Officer?",
+      "subtitle": "Kraftfulla verktyg och tjänster för att hjälpa startups och företag att skala med säkerhet.",
+      "icon": {
+        "chartBar":{
+          "title": "Analysdashboard",
+          "description": "Spåra användning, övervaka prestanda och få handlingsbara insikter."
+        },
+        "lockClosed": {
+          "title": "Säker Infrastruktur",
+          "description": "Byggd med säkerhetsförstprinciper och företagsklass kryptering."
+        },
+        "cog8Tooth": {
+          "title": "Anpassade Arbetsflöden",
+          "description": "Skräddarsy din konfiguration för att passa ditt teams behov."
+        }
+      }
+    }
+  }
+}

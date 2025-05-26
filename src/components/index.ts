@@ -5,3 +5,4 @@ export { default as DesktopNav } from './header/DesktopNav';
 export { default as MobileNav } from './header/MobileNav';
 export { default as CTAButton } from './header/CTAButton';
 export { default as FeatureSection } from './sections/features/FeatureSection';
+export { default as LanguageSwitcher } from './header/Languages';
